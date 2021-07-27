@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --bg-color: rgba(150, 150, 150, 1);
+
+  /* Border Colors are all transparent colors. These will tint or shade the background color of the square. */
+  --border-left-color: rgba(255, 255, 255, 0.20);
+  --border-top-color: rgba(255, 255, 255, 0.33);
+  --border-right-color: rgba(0, 0, 0, 0.15);
+  --border-bottom-color: rgba(0, 0, 0, 0.5);
+
+  /* Square Colors:  background colors for the squares.*/
+  --color-0: #eaeaea;
+  --color-1: #000000;
+  --color-2: #66ccff;
+
+  /* Button Colors */
+  --button-color-t: rgba(200, 200, 200, 1);
+  --button-color-r: rgba(150, 150, 150, 1);
+  --button-color-b: rgba(120, 120, 120, 1);
+  --button-color-l: rgba(222, 222, 222, 1);
+
+  /* Numbers define values that will be used throughout the CSS.
+  --tile-size: 20px for example will set size of the grid squares. */
+  --cols: 10;
+  --rows: 18;
+  --tile-size: 20px;
+  --border-width: 5px;
+}
+
+.grid-square {
+  border-style: solid;
+  width: 30px;
+  height: 30px;
+  border-width: 2px;
+  border-color: black;
+}
+
+/* Colors */
+.color-0 {
+  background-color: #18009e;
+  color: transparent;
+}
+
+.color-0:hover {
+  background-color: #363636;
+  transform: scale(1.1);
+  cursor: pointer;
+  color: transparent;
+}
+
+
+.color-1 {
+  background-color: #eaeaea;
+  color: transparent;
+}
+
+.color-2 {
+  background-color: #66ccff;
+  color: transparent;
+}
+
+.grid-board {
+  margin-top: 2rem;
+  display: grid;
+  grid-gap: 0;
+  align-self: flex-start;
+  justify-content: center;
+}
