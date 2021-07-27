@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Percolation_test/static/css/main.f302d5a4.chunk.css",
+    "main.js": "/Percolation_test/static/js/main.ed960923.chunk.js",
+    "main.js.map": "/Percolation_test/static/js/main.ed960923.chunk.js.map",
+    "runtime-main.js": "/Percolation_test/static/js/runtime-main.f182b007.js",
+    "runtime-main.js.map": "/Percolation_test/static/js/runtime-main.f182b007.js.map",
+    "static/js/2.7293c9b9.chunk.js": "/Percolation_test/static/js/2.7293c9b9.chunk.js",
+    "static/js/2.7293c9b9.chunk.js.map": "/Percolation_test/static/js/2.7293c9b9.chunk.js.map",
+    "static/js/3.30aebdaf.chunk.js": "/Percolation_test/static/js/3.30aebdaf.chunk.js",
+    "static/js/3.30aebdaf.chunk.js.map": "/Percolation_test/static/js/3.30aebdaf.chunk.js.map",
+    "index.html": "/Percolation_test/index.html",
+    "static/css/main.f302d5a4.chunk.css.map": "/Percolation_test/static/css/main.f302d5a4.chunk.css.map",
+    "static/js/2.7293c9b9.chunk.js.LICENSE.txt": "/Percolation_test/static/js/2.7293c9b9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f182b007.js",
+    "static/js/2.7293c9b9.chunk.js",
+    "static/css/main.f302d5a4.chunk.css",
+    "static/js/main.ed960923.chunk.js"
+  ]
+}
